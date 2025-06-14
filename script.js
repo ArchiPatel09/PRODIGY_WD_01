@@ -1,4 +1,4 @@
-// Navigation scroll effect
+// Scrolling effect for navigation
 const nav = document.getElementById('mainNav');
 const navHeight = nav.offsetHeight;
 
@@ -10,13 +10,13 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Button click effect
+// Clicking effect for button
 const btn = document.querySelector('.btn');
 btn.addEventListener('click', () => {
     alert('Thanks for exploring! The navigation menu changes color when you scroll - try it!');
 });
 
-// Add active class to current menu item
+// Adding active class to current menu item
 const navLinks = document.querySelectorAll('.nav-links a');
 navLinks.forEach(link => {
     link.addEventListener('click', function(e) {
